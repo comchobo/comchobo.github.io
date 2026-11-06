@@ -2,4 +2,9 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://comchobo.github.io',
+  vite: {
+    server: {
+      allowedHosts: ['macbook'],
+    },
+  },
 });
